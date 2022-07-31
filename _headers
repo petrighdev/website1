@@ -17,4 +17,4 @@ X-UA-Compatible: IE=edge
 X-Permitted-Cross-Domain-Policies: none
 Permissions-Policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()",
 Link: https://cdnjs.cloudflare.com, rel=dns-prefetch
-Set-Cookie": __Host-Hello;HttpOnly;Secure;SameSite=Lax
+Set-Cookie: __Host-Hello,HttpOnly,Secure,SameSite=Lax

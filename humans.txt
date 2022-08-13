@@ -1,0 +1,14 @@
+/* TEAM */
+
+Creator: Matthieu Petrigh
+URL: https://www.petrigh.dev
+Description: I am a consultant specialising in minimalism, website security and website performance.
+
+/* THANKS */
+
+Everybody.
+
+/* SITE */
+
+Standards: HTML5, CSS3
+Components: Javascript

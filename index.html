@@ -2,92 +2,646 @@
 <html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta content="width=device-width,initial-scale=1" name="viewport">
-    <title>Matthieu Petrigh | Consultant in Website Security and Performance</title>
-    <meta content="Matthieu Petrigh - Consultant in Website Security and Performance" property="og:title">
-    <meta content="I am a consultant specialising in minimalism, website security and website performance." name="description">
-    <meta content="I am a consultant specialising in minimalism, website security and website performance." property="og:description">
-    <meta content="summary" name="twitter:card">
-    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAYUExURQMDA/v7+0lJSSwsLLOzs9PT029vb42Njb/2T9IAAADdSURBVCjPdZJNDoIwEIUbirj1IT/bNsF9EX+21XgAkQvoDaz3XzgtqQ5EZwHp1zfz3hCE+FfJHLRqBpyddSCfghSlmQBd4c7Psn8+1hxkMPt6YlrRWG7sBiFOlpvSrWbGaUGPJTPWJSk2zPiI2mSo2KYb3E6F+WzcCOmAu3QqxjQi6c8kszEm3WzFAXHjltQv0hQHjMYOdgelCeM5xkTeE8hj2BQPgMC663QRYtYL5L7Fl/KmQ1aqCK7BVA7Sz+h8kSn1GQ9W8duEyV+QBG+mWIR0DDTn8Lqoxv7+C94FER2kRUicgwAAAABJRU5ErkJggg==" />
-    <meta property="og:title" content="Matthieu Petrigh, Consultant in Website Security and Performance" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.petrigh.dev" />
-    <meta property="og:image" content="data:image/webp;base64,UklGRnADAABXRUJQVlA4TGMDAAAvd8AdADegpI0kOLmfj2N3aNEpaSMJTu7n49gdWnRK2kiCk/v5OHaHFt38R5Jt/b+27s7umhmQY9u22zYIpOq/JBC1ImrQqVZErYg6//mPgfjvvuRURvQfgiS5cZtlFXJBIwgGQCpPyP47Vsg99Vp6aqo9f46do9oYCz+NMR78tMT4y02XMcY+d6OeFEs36qbajXqSG7Td5AYdN7lBl1S/nKhkuUDfNrlBZ6rahUrVe1EJ1Inar04/ptdOCdSJWr75QAkvxe9cqA0p6saFeqA3M9Y9vWvrAR3pyAgeUBRpCvWgJsPSHjqiQAnUngpHT2NO3eOGsqfiRi4cqBmCelAR1JrKZS63HTdJkBBqT8VQWyqeIQabuCivGFoabtmd4PM+WFPNoMLMsFBjqgN0ThPDaLWCBtH+dTTbD19TdfDHy5XshzZULjNh28WNoO+RrAofHpQoydP1BXECcZh0/hqpDyVa9sIxYp+Zy7ulj61Tds76tNx5pdBd0+ecz0J0kYT1UCtHRpkGF7l1R+ZnpyzIM8aH+6QXZUkvscbVBZxApe91Q72B1cVV9oP2jiMM6sg7rdrBM+MGf+ecZm1VB/JAnE/BNGKtG+oF21AVc6pVQCc2GS1on7DoD8Qr3IdIgrqcGUQKaCtJ5Fww5a2BvkkUuDcWDXTGzxMqyQS7W+XbwyXzZvGGPowJcCb58LnHuQjJdAf3IlvUvXwTn7AmdK8VjY5LUUkLZukl6r0Jd9MiKGmuYncoUBhOl6NDm/CNNUWhYsiRCt0mvkDNAlXMEYinwoJtI6+GO3oJqWkaZ6qMqM/ZQzlPBesYeXNQHrVCRFoF2rMVVIuoXTqVJYY/uImo9SjVXvCeKKGWQyrepXsG6zM9agmoPbphj2pStmrBuGnQzSqtegF1Bxqxy7SKBU/NQUeUetWICqbcRCIIav3iqSCCMktNJhQHXUDu7mmPqUwK5agghMJEDdGA0h6ScDgpoTNsyjVpdOgiPMAKqGn8JEB5H/HjBidu7HOkzMCMEcb1VmW2hjnAtBmW3lxGbtjbmpHrZivDUAsfEyK/qVpedk9+9jEjGXzKX2upPuaSHJq0RlvMWqOmKi9T/m9bbZRUh1+DeVzqjY7qYy7JvPRR+/37j+enUqTnbW1P9f20yux/YGUA" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<link rel="icon" type="image/ico" sizes="32x32" href="https://www.petrigh.dev/favicon.ico" />
+
+<!-- BEGIN SEO Meta -->
+
+<title>Matthieu Petrigh | Consultant in Website Security and Performance</title>
+
+<!--
+                     ==
+                    #WW#
+                  -@WWWW@
+                 -WWW*=WWW-
+                :WWW+  *WWW:
+               +WWW:    +WWW+
+              =WWW-      -WWW*
+             #WWW*        =WWW=
+              *WWWWW*  *WWWW@:
+          :W+    *WWWWWWW@:  -#W@-
+         *WW@       *W@:   =WWWWWW-
+        =WWWW+   =@+    *WWWW@::WWW+
+       #WWWWW@-#WWWW=  @WW@:    :WWW*
+      @WWW:WWWWWWWWW=  @WW#======#WWW*
+    -WWW@- +WWW* =WW=  @WWWWWWWWWWWWWW#
+   :WWW#    #+   =WW=  @WW:
+  +WWW=          =WW=  @WW:
+ *WWW*           =WW=  @WW:
+:*==:            +==+  ***-
+(c) 2022 petrigh.dev##########################  
+-->
+
+<!-- Standard SEO -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="all" />
+<meta name="description" content="I am a consultant specialising in minimalism, website security and website performance. " />
+<meta name="generator" content="Matthieu Petrigh" />
+<link rel="canonical" href="https://www.petrigh.dev" />
+<link rel="alternate" href="https://www.petrigh.dev" hreflang="x-default" />
+<meta name="geo.region" content="GB-ESS" />
+<meta name="geo.placename" content="London" />
+<meta name="geo.position" content="51.44958158713149;-0.329646244111408" />
+<meta name="ICBM" content="51.44958158713149;-0.329646244111408" />
+
+<!-- Dublin Core basic info -->
+
+<meta name="dcterms.Identifier" content="https://www.petrigh.dev" />
+<meta name="dcterms.Format" content="text/html" />
+<meta name="dcterms.Relation" content="Matthieu Petrigh" />
+<meta name="dcterms.Language" content="en" />
+<meta name="dcterms.Publisher" content="Matthieu Petrigh" />
+<meta name="dcterms.Type" content="text/html" />
+<meta name="dcterms.Coverage" content="https://www.petrigh.dev/" />
+<meta name="dcterms.Rights" content="Copyright &copy;2022 Matthieu Petrigh." />
+<meta name="dcterms.Title" content="Matthieu Petrigh, Consultant in Website Security and Performance" />
+<meta name="dcterms.Creator" content="Matthieu Petrigh" />
+<meta name="dcterms.Subject" content="Consulting services" />
+<meta name="dcterms.Contributor" content="Matthieu Petrigh" />
+<meta name="dcterms.Date" content="2022-08-06" />
+<meta name="dcterms.Description" content="I am a consultant specialising in minimalism, website security and website performance. " />
+
+<!-- Twitter Card -->
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@MatthieuPetrigh" />
+<meta name="twitter:title" content="Matthieu Petrigh, Consultant in Website Security and Performance | Matthieu Petrigh" />
+<meta name="twitter:description" content="I am a consultant specialising in minimalism, website security and website performance. " />
+<meta name="twitter:image" content="https://www.petrigh.dev/apple-touch-icon.png" />
+
+<!-- Og Properties -->
+
+<meta property="og:title" content="Matthieu Petrigh, Consultant in Website Security and Performance" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.petrigh.dev" />
+<meta property="og:image" content="https://www.petrigh.dev/apple-touch-icon.png" />
+<meta property="og:description" content="I am a consultant specialising in minimalism, website security and website performance.">
+
+<!-- Humans.txt authorship http://humanstxt.org -->
+
+<link type="text/plain" rel="author" href="https://www.petrigh.dev/humans.txt" />
+
+<!-- Identity -->
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Corporation",
+    "name": "Matthieu Petrigh",
+    "description": "Website security and website performance.",
+    "url": "https://www.petrigh.dev",
+    "sameAs": ["https://twitter.com/MatthieuPetrigh","https://www.linkedin.com/in/securite-et-mon-droit/"],
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.petrigh.dev/apple-touch-icon.png",
+        "height": "120",
+        "width": "120" 
+    },
+    "telephone": "",
+    "email": "matthieu@petrigh.dev",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Twickenham",
+        "addressRegion": "London",
+        "postalCode": "TW1 3QS",
+        "addressCountry": "United Kingdom" 
+    },
+    "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.petrigh.dev/apple-touch-icon.png",
+        "height": "120",
+        "width": "120" 
+    },
+    "location": {
+        "@type": "Place",
+        "name": "Matthieu Petrigh",
+        "description": "Website security and website performance.",
+        "telephone": "",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.petrigh.dev/apple-touch-icon.png",
+            "height": "120",
+            "width": "120" 
+        },
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.petrigh.dev/apple-touch-icon.png",
+            "height": "120",
+            "width": "120" 
+        },
+        "url": "https://www.petrigh.dev",
+        "sameAs": ["https://twitter.com/MatthieuPetrigh","https://www.linkedin.com/in/securite-et-mon-droit/"],
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "51.44958158713149",
+            "longitude": "-0.329646244111408" 
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Twickenham",
+            "addressRegion": "London",
+            "postalCode": "TW1 3QS",
+            "addressCountry": "United Kingdom" 
+        } 
+    
+</script>
+
+<!-- WebSite -->
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Matthieu Petrigh",
+    "description": "I am a consultant specialising in minimalism, website security and website performance.",
+    "url": "https://www.petrigh.dev",
+    "image": "https://www.petrigh.dev/apple-touch-icon.png",
+    "sameAs": ["https://twitter.com/MatthieuPetrigh","https://www.linkedin.com/in/securite-et-mon-droit/"],
+    "copyrightHolder": {
+        "@type": "Corporation",
+        "name": "Matthieu Petrigh",
+        "description": "Website security and website performance.",
+        "url": "https://www.petrigh.dev",
+        "sameAs": ["https://twitter.com/MatthieuPetrigh","https://www.linkedin.com/in/securite-et-mon-droit/"],
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.petrigh.dev/apple-touch-icon.png",
+            "height": "120",
+            "width": "120" 
+        },
+        "telephone": "",
+        "email": "matthieu@petrigh.dev",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Twickenham",
+            "addressRegion": "London",
+            "postalCode": "TW1 3QS",
+            "addressCountry": "United Kingdom" 
+        },
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.petrigh.dev/apple-touch-icon.png",
+            "height": "120",
+            "width": "120" 
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Matthieu Petrigh",
+            "description": "Website security and website performance.",
+            "telephone": "",
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://www.petrigh.dev/apple-touch-icon.png",
+                "height": "120",
+                "width": "120" 
+            },
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.petrigh.dev/apple-touch-icon.png",
+                "height": "120",
+                "width": "120" 
+            },
+            "url": "https://www.petrigh.dev",
+            "sameAs": ["https://twitter.com/MatthieuPetrigh","https://www.linkedin.com/in/securite-et-mon-droit/"],
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "51.44958158713149",
+                "longitude": "-0.329646244111408" 
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Twickenham",
+                "addressRegion": "London",
+                "postalCode": "TW1 3QS",
+                "addressCountry": "United Kingdom" 
+            } 
+        },
+      
+    "author": {
+        "@type": "Corporation",
+        "name": "Matthieu Petrigh",
+        "description": "Website security and website performance.",
+        "url": "https://www.petrigh.dev",
+        "sameAs": ["https://twitter.com/MatthieuPetrigh","https://www.linkedin.com/in/securite-et-mon-droit/"],
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.petrigh.dev/apple-touch-icon.png",
+            "height": "120",
+            "width": "120" 
+        },
+        "telephone": "",
+        "email": "matthieu@petrigh.dev",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Twickenham",
+            "addressRegion": "London",
+            "postalCode": "TW1 3QS",
+            "addressCountry": "United Kingdom" 
+        },
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.petrigh.dev/apple-touch-icon.png",
+            "height": "120",
+            "width": "120" 
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Matthieu Petrigh",
+            "description": "Website security and website performance.",
+            "telephone": "",
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://www.petrigh.dev/apple-touch-icon.png",
+                "height": "120",
+                "width": "120" 
+            },
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.petrigh.dev/apple-touch-icon.png",
+                "height": "120",
+                "width": "120" 
+            },
+            "url": "https://www.petrigh.dev",
+            "sameAs": ["https://twitter.com/MatthieuPetrigh","https://www.linkedin.com/in/securite-et-mon-droit/"],
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "51.44958158713149",
+                "longitude": "-0.329646244111408"
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Twickenham",
+                "addressRegion": "London",
+                "postalCode": "TW1 3QS",
+                "addressCountry": "United Kingdom" 
+            } 
+        },
+       
+    "creator": {
+        "@type": "Organization",
+        "name": "Matthieu Petrigh",
+        "alternateName": "Matthieu Petrigh",
+        "description": "Website security and website performance.",
+        "url": "https://www.petrigh.dev",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.petrigh.dev/apple-touch-icon.png",
+            "height": "120",
+            "width": "120" 
+        },
+        "telephone": "",
+        "email": "matthieu@petrigh.dev",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "70 London Road",
+            "addressLocality": "Twickenham",
+            "addressRegion": "London",
+            "postalCode": "TW1 3QS",
+            "addressCountry": "United Kingdom" 
+        },
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.petrigh.dev/apple-touch-icon.png",
+            "height": "120",
+            "width": "120" 
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Matthieu Petrigh",
+            "alternateName": "Matthieu Petrigh",
+            "description": "Website security and website performance.",
+            "hasMap": "https://goo.gl/maps/2pgy6gGoVagzJrNh7",
+            "telephone": "",
+            "url": "https://www.petrigh.dev",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "51.44958158713149",
+                "longitude": "-0.329646244111408" 
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "70 London Road",
+                "addressLocality": "Twickenham",
+                "addressRegion": "London",
+                "postalCode": "TW1 3QS",
+                "addressCountry": "United Kingdom" 
+            } 
+        
+}
+</script>
+
+<!-- Place -->
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Place",
+    "name": "Matthieu Petrigh",
+    "description": "Website security and website performance.",
+    "telephone": "",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.petrigh.dev/apple-touch-icon.png",
+        "height": "120",
+        "width": "120" 
+    },
+    "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.petrigh.dev/apple-touch-icon.png",
+        "height": "120",
+        "width": "120" 
+    },
+    "url": "https://www.petrigh.dev",
+    "sameAs": ["https://twitter.com/MatthieuPetrigh","https://www.linkedin.com/in/securite-et-mon-droit/"],
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "51.449628390811206",
+        "longitude": "-0.3296569729467149" 
+    },
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Twickenham",
+        "addressRegion": "London",
+        "postalCode": "TW1 3QS",
+        "addressCountry": "United Kingdom" 
+    } 
+}
+</script>
+
+<!-- Main Entity of Page -->
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "name": "Matthieu Petrigh, Consultant in Website Security and Performance",
+    "description": "I am a consultant specialising in minimalism, website security and website performance. ",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.petrigh.dev/apple-touch-icon.png",
+        "width": "120",
+        "height": "120" 
+    },
+    "url": "https://www.petrigh.dev",
+    "mainEntityOfPage": "https://www.petrigh.dev",
+    "inLanguage": "en_gb",
+    "headline": "Matthieu Petrigh, Consultant in Website Security and Performance",
+    "dateCreated": "2022-08-09T15:54:00+0000",
+    "dateModified": "2022-08-10T10:15:56+0000",
+    "datePublished": "2022-08-09T15:54:00+0000",
+    "copyrightYear": "2022",
+    "author": {
+        "@type": "Corporation",
+        "name": "Matthieu Petrigh",
+        "description": " Website security and website performance.",
+        "url": "https://www.petrigh.dev",
+        "sameAs": ["https://twitter.com/MatthieuPetrigh","https://www.linkedin.com/in/securite-et-mon-droit/"],
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.petrigh.dev/apple-touch-icon.png",
+            "height": "120",
+            "width": "120" 
+        },
+        "telephone": "",
+        "email": "matthieu@petrigh.dev",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Twickenham",
+            "addressRegion": "London",
+            "postalCode": "TW1 3QS",
+            "addressCountry": "United Kingdom" 
+        },
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.petrigh.dev/apple-touch-icon.png",
+            "height": "120",
+            "width": "120" 
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Matthieu Petrigh",
+            "description": "Website security and website performance.",
+            "telephone": "",
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://www.petrigh.dev/apple-touch-icon.png",
+                "height": "120",
+                "width": "120" 
+            },
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.petrigh.dev/apple-touch-icon.png",
+                "height": "120",
+                "width": "120" 
+            },
+            "url": "https://www.petrigh.dev",
+            "sameAs": ["https://twitter.com/MatthieuPetrigh","https://www.linkedin.com/in/securite-et-mon-droit/"],
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "51.44958158713149",
+                "longitude": "-0.329646244111408" 
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Twickenham",
+                "addressRegion": "London",
+                "postalCode": "TW1 3QS",
+                "addressCountry": "United Kingdom" 
+            } 
+        },
+        
+    "copyrightHolder": {
+        "@type": "Corporation",
+        "name": "Matthieu Petrigh",
+        "description": "Website security and website performance.",
+        "url": "https://www.petrigh.dev",
+        "sameAs": ["https://twitter.com/MatthieuPetrigh","https://www.linkedin.com/in/securite-et-mon-droit/"],
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.petrigh.dev/apple-touch-icon.png",
+            "height": "120",
+            "width": "120" 
+        },
+        "telephone": "",
+        "email": "matthieu@petrigh.dev",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Twickenham",
+            "addressRegion": "London",
+            "postalCode": "TW1 3QS",
+            "addressCountry": "United Kingdom" 
+        },
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.petrigh.dev/apple-touch-icon.png",
+            "height": "120",
+            "width": "120" 
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Matthieu Petrigh",
+            "description": "Website security and website performance.",
+            "telephone": "",
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://www.petrigh.dev/apple-touch-icon.png",
+                "height": "120",
+                "width": "120" 
+            },
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.petrigh.dev/apple-touch-icon.png",
+                "height": "120",
+                "width": "120" 
+            },
+            "url": "https://www.petrigh.dev",
+            "sameAs": ["https://twitter.com/MatthieuPetrigh","https://www.linkedin.com/in/securite-et-mon-droit/"],
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "51.44958158713149",
+                "longitude": "-0.329646244111408" 
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Twickenham",
+                "addressRegion": "London",
+                "postalCode": "TW1 3QS",
+                "addressCountry": "United Kingdom" 
+            } 
+        },
+        
+    "publisher": {
+        "@type": "Organization",
+        "name": "Matthieu Petrigh",
+        "description": "Website security and website performance.",
+        "url": "https://www.petrigh.dev",
+        "sameAs": ["https://twitter.com/MatthieuPetrigh","https://www.linkedin.com/in/securite-et-mon-droit/"],
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.petrigh.dev/apple-touch-icon.png",
+            "height": "120",
+            "width": "120" 
+        },
+        "telephone": "",
+        "email": "matthieu@petrigh.dev",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Twickenham",
+            "addressRegion": "London",
+            "postalCode": "TW1 3QS",
+            "addressCountry": "United Kingdom" 
+        },
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.petrigh.dev/apple-touch-icon.png",
+            "height": "120",
+            "width": "120" 
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Matthieu Petrigh",
+            "description": "Website security and website performance.",
+            "telephone": "",
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://www.petrigh.dev/apple-touch-icon.png",
+                "height": "120",
+                "width": "120" 
+            },
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.petrigh.dev/apple-touch-icon.png",
+                "height": "120",
+                "width": "120" 
+            },
+            "url": "https://www.petrigh.dev",
+            "sameAs": ["https://twitter.com/MatthieuPetrigh","https://www.linkedin.com/in/securite-et-mon-droit/"],
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "51.44958158713149",
+                "longitude": "-0.329646244111408" 
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Twickenham",
+                "addressRegion": "London",
+                "postalCode": "TW1 3QS",
+                "addressCountry": "United Kingdom" 
+            } 
+        },
+        
+    "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                    "@id": "https://www.petrigh.dev",
+                    "name": "Matthieu Petrigh" 
+                } 
+            }
+        ] 
+    } 
+}
+</script>
+
+<!-- Breadcrumbs -->
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": "1",
+            "item": {
+                "@id": "https://www.petrigh.dev",
+                "name": "Matthieu Petrigh" 
+            } 
+        }
+    ] 
+}
+</script>
+    
     <style>
         *{margin:0;--tc:#000;--bc:#fff;--hc:#273}@media{*{--tc:#fff;--bc:#000;--hc:#fb0}}body{font:18px/2 -apple-system,BlinkMacSystemFont,sans-serif;color:var(--tc);background:var(--bc);max-width:36em;margin:0 auto;padding:0 .7em;text-align:left}main{margin-bottom:3em}a{text-decoration:none;color:var(--hc)}a:hover{text-decoration:underline}br,h1,h2,header,ul{margin-bottom:1em}ul{padding-left:1em}br{content:" ";display:block}section,section:target~section:last-of-type{display:none}section:last-of-type,section:target{display:inherit}header{display:flex;justify-content:space-between;align-items:center}header>a{font-size:1.7em;font-weight:700}nav a{margin-left:.75em}
     </style>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/page-accelerator/0.1.1/page-accelerator.min.js " integrity="sha512-YZMsq9hQOwRuYLHDE3xu5Fuqc7dsw8JW93koppkyK4dxD963sMKZkZQFF62HpQIA74nmG8mK4lzKQf0IpFOU2Q==" crossorigin="anonymous"></script>
-    <link rel="canonical" href="https://www.petrigh.dev/index.html">
+
 </head>
 
 <body>
-<!--
-                     ==
 
-                    #WW#
-
-                  -@WWWW@
-
-                 -WWW*=WWW-
-
-                :WWW+  *WWW:
-
-               +WWW:    +WWW+
-
-              =WWW-      -WWW*
-
-             #WWW*        =WWW=
-
-              *WWWWW*  *WWWW@:
-
-          :W+    *WWWWWWW@:  -#W@-
-
-         *WW@       *W@:   =WWWWWW-
-
-        =WWWW+   =@+    *WWWW@::WWW+
-
-       #WWWWW@-#WWWW=  @WW@:    :WWW*
-
-      @WWW:WWWWWWWWW=  @WW#======#WWW*
-
-    -WWW@- +WWW* =WW=  @WWWWWWWWWWWWWW#
-
-   :WWW#    #+   =WW=  @WW:
-
-  +WWW=          =WW=  @WW:
-
- *WWW*           =WW=  @WW:
-
-:*==:            +==+  ***-
-
-(c) 2022 petrigh.dev####################  
--->
-    <header><a href="#h"><img src="data:image/webp;base64,UklGRnADAABXRUJQVlA4TGMDAAAvd8AdADegpI0kOLmfj2N3aNEpaSMJTu7n49gdWnRK2kiCk/v5OHaHFt38R5Jt/b+27s7umhmQY9u22zYIpOq/JBC1ImrQqVZErYg6//mPgfjvvuRURvQfgiS5cZtlFXJBIwgGQCpPyP47Vsg99Vp6aqo9f46do9oYCz+NMR78tMT4y02XMcY+d6OeFEs36qbajXqSG7Td5AYdN7lBl1S/nKhkuUDfNrlBZ6rahUrVe1EJ1Inar04/ptdOCdSJWr75QAkvxe9cqA0p6saFeqA3M9Y9vWvrAR3pyAgeUBRpCvWgJsPSHjqiQAnUngpHT2NO3eOGsqfiRi4cqBmCelAR1JrKZS63HTdJkBBqT8VQWyqeIQabuCivGFoabtmd4PM+WFPNoMLMsFBjqgN0ThPDaLWCBtH+dTTbD19TdfDHy5XshzZULjNh28WNoO+RrAofHpQoydP1BXECcZh0/hqpDyVa9sIxYp+Zy7ulj61Tds76tNx5pdBd0+ecz0J0kYT1UCtHRpkGF7l1R+ZnpyzIM8aH+6QXZUkvscbVBZxApe91Q72B1cVV9oP2jiMM6sg7rdrBM+MGf+ecZm1VB/JAnE/BNGKtG+oF21AVc6pVQCc2GS1on7DoD8Qr3IdIgrqcGUQKaCtJ5Fww5a2BvkkUuDcWDXTGzxMqyQS7W+XbwyXzZvGGPowJcCb58LnHuQjJdAf3IlvUvXwTn7AmdK8VjY5LUUkLZukl6r0Jd9MiKGmuYncoUBhOl6NDm/CNNUWhYsiRCt0mvkDNAlXMEYinwoJtI6+GO3oJqWkaZ6qMqM/ZQzlPBesYeXNQHrVCRFoF2rMVVIuoXTqVJYY/uImo9SjVXvCeKKGWQyrepXsG6zM9agmoPbphj2pStmrBuGnQzSqtegF1Bxqxy7SKBU/NQUeUetWICqbcRCIIav3iqSCCMktNJhQHXUDu7mmPqUwK5agghMJEDdGA0h6ScDgpoTNsyjVpdOgiPMAKqGn8JEB5H/HjBidu7HOkzMCMEcb1VmW2hjnAtBmW3lxGbtjbmpHrZivDUAsfEyK/qVpedk9+9jEjGXzKX2upPuaSHJq0RlvMWqOmKi9T/m9bbZRUh1+DeVzqjY7qYy7JvPRR+/37j+enUqTnbW1P9f20yux/YGUA" width="120" height="120" alt="Matthieu Petrigh"></a>
-        <nav><a href="#s">Services</a> <a href="#c">Contact</a></nav>
-    </header>
-    <main>
-        <section id="s">
-            <h1>Website re-design</h1>I like to re-design websites and improve their performance and security by doctoring their source codes and fine-tuning the execution of their functionalities.<br>The websites I re-design have a valid source code without any coding error or warning, have embedded security measures to prevent hacking, and have no analytical cookie so as to preserve privacy. I can also create bespoke websites instead of re-designing an existing website template.<br>
-            <h2>Support</h2><br>
-            <ul>
-                <li><strong>Web hosting</strong>: I can host your website on the secure servers I use;</li>
-                <li><strong>Website security</strong>: I develop, configure and implement a set of website security measures to protect your website;</li>
-                <li><strong>Contents creation</strong>: I can create your logo, the contents you want to publish, and publish new contents on a regular basis on your behalf.</li>
-            </ul><br>All the work I do is proprietary, meaning it belongs solely to my clients.<br><i>The work I do is bespoke, meticulous and takes time. If you are looking for a fast turnaround or standard solution, then I am not a good fit for your project.</i></section>
-        <section id="c">
-            <h2>Let's discuss about your project</h2><br><strong>My name</strong>: Matthieu Petrigh<br><strong>Email</strong>: matthieu@petrigh.dev<br><strong>LinkedIn</strong>: <a rel="noopener" href="https://www.linkedin.com/in/securite-et-mon-droit/">Connect with me on LinkedIn.</a><br><h2>Publications</h2><br><a rel="noopener" href="https://www.petrigh.dev/rss.xml">RSS feed</a><br><i><a rel="noopener" href="https://drive.proton.me/urls/0WS3V3G2FW#i906BRxko9KQ">[2] Are UK Security and Cyber-Security Companies Using Modern Website Security Features To  Protect Their Own Websites?</a></i> This small scale research has demonstrated that all too often, security companies and cyber-security companies are not implementing modern website security features to protect their own websites.<br><i><a rel="noopener" href="https://drive.proton.me/urls/Q6HKV5ZHYG#6BAlLpswyASP">[1] Website Performance and Security: A Comparative Analysis of 1000 Websites.</a></i> This small scale research has demonstrated that all too often, the overall performance of websites (speed and security) is rather weak, with an average performance of 36.48%. More importantly, evidence reveals that website’s security is not taken seriously by their respective owners, with an average security rating of only 19.26%.<br></section>
-        <section id="h">
-            <h2>How can I help you today?</h2>I am a trusted independent consultant and researcher who specialises in minimalism<sup>(*)</sup>, website security, and website performance. Expertise in website design enhancement, website and Internet-facing security, accessibility, compliance and speed.<br>I have been extensively involved in evaluating "what works efficiently" (and what does not). My work has involved helping my clients to improve the security and performance of their websites (speed and accessibility), hosting and maintaining their websites.<br>I work closely with my clients. This includes teams of websites designers, businesses, SMEs, national and local governments, associations and international organisations, as well as charities and foundations. My aim is to exceed their expectations and it speaks volumes that so many have chosen to work with me repeatedly over many years. I am passionate about my work and I would welcome the opportunity to work with you.<br>
-            <ul>
-                <li>Proven methodology: what I do and how I do it works, for real;</li>
-                <li>No jargon: simple explanations;</li>
-                <li>No surprise: deliver what has been agreed upon, no BS.</li>
-            </ul><br>
-            <h3>A performing and secure website</h3><br>Website performance is something rather rare in today's world, and it is as such for many reasons. Having a performing and secure website has many advantages compared to having a "normal website". For example, a performing website allows you to stand out from the crowd, requires almost no computing power, consumes less energy, loads faster, is more stable and secure; it expresses a way of doing things, a way of being. Performing websites also enhance the overall experience of websites' users, including their own security.<br><i>(*) Minimalism is the philosophy of achieving simplicity. Applied to website design, minimalism includes removing what is unnecessary, has little use and distracts.</i><br></section>
-    </main>
-    <footer>
-        <hr />&copy; Matthieu Petrigh - <a rel="noopener" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.petrigh.dev%2F">Compliance</a>, <a rel="noopener" href="https://observatory.mozilla.org/analyze/www.petrigh.dev">Security</a>.</footer>
+<header><a href="#h"><img src="data:image/webp;base64,UklGRnADAABXRUJQVlA4TGMDAAAvd8AdADegpI0kOLmfj2N3aNEpaSMJTu7n49gdWnRK2kiCk/v5OHaHFt38R5Jt/b+27s7umhmQY9u22zYIpOq/JBC1ImrQqVZErYg6//mPgfjvvuRURvQfgiS5cZtlFXJBIwgGQCpPyP47Vsg99Vp6aqo9f46do9oYCz+NMR78tMT4y02XMcY+d6OeFEs36qbajXqSG7Td5AYdN7lBl1S/nKhkuUDfNrlBZ6rahUrVe1EJ1Inar04/ptdOCdSJWr75QAkvxe9cqA0p6saFeqA3M9Y9vWvrAR3pyAgeUBRpCvWgJsPSHjqiQAnUngpHT2NO3eOGsqfiRi4cqBmCelAR1JrKZS63HTdJkBBqT8VQWyqeIQabuCivGFoabtmd4PM+WFPNoMLMsFBjqgN0ThPDaLWCBtH+dTTbD19TdfDHy5XshzZULjNh28WNoO+RrAofHpQoydP1BXECcZh0/hqpDyVa9sIxYp+Zy7ulj61Tds76tNx5pdBd0+ecz0J0kYT1UCtHRpkGF7l1R+ZnpyzIM8aH+6QXZUkvscbVBZxApe91Q72B1cVV9oP2jiMM6sg7rdrBM+MGf+ecZm1VB/JAnE/BNGKtG+oF21AVc6pVQCc2GS1on7DoD8Qr3IdIgrqcGUQKaCtJ5Fww5a2BvkkUuDcWDXTGzxMqyQS7W+XbwyXzZvGGPowJcCb58LnHuQjJdAf3IlvUvXwTn7AmdK8VjY5LUUkLZukl6r0Jd9MiKGmuYncoUBhOl6NDm/CNNUWhYsiRCt0mvkDNAlXMEYinwoJtI6+GO3oJqWkaZ6qMqM/ZQzlPBesYeXNQHrVCRFoF2rMVVIuoXTqVJYY/uImo9SjVXvCeKKGWQyrepXsG6zM9agmoPbphj2pStmrBuGnQzSqtegF1Bxqxy7SKBU/NQUeUetWICqbcRCIIav3iqSCCMktNJhQHXUDu7mmPqUwK5agghMJEDdGA0h6ScDgpoTNsyjVpdOgiPMAKqGn8JEB5H/HjBidu7HOkzMCMEcb1VmW2hjnAtBmW3lxGbtjbmpHrZivDUAsfEyK/qVpedk9+9jEjGXzKX2upPuaSHJq0RlvMWqOmKi9T/m9bbZRUh1+DeVzqjY7qYy7JvPRR+/37j+enUqTnbW1P9f20yux/YGUA" width="120" height="120" alt="Matthieu Petrigh"></a>
+<nav><a href="#s">Services</a> <a href="#c">Contact</a></nav>
+</header>
+<main>
+<section id="s">
+<h1>Website re-design</h1>I like to re-design websites and improve their performance and security by doctoring their source codes and fine-tuning the execution of their functionalities.<br>The websites I re-design have a valid source code without any coding error or warning, have embedded security measures to prevent hacking, and have no analytical cookie so as to preserve privacy. I can also create bespoke websites instead of re-designing an existing website template.<br>
+<h2>Support</h2><br>
+<ul>
+<li><strong>Web hosting</strong>: I can host your website on the secure servers I use;</li>
+<li><strong>Website security</strong>: I develop, configure and implement a set of website security measures to protect your website;</li>
+<li><strong>Contents creation</strong>: I can create your logo, the contents you want to publish, and publish new contents on a regular basis on your behalf.</li>
+</ul><br>All the work I do is proprietary, meaning it belongs solely to my clients.<br><i>The work I do is bespoke, meticulous and takes time. If you are looking for a fast turnaround or standard solution, then I am not a good fit for your project.</i></section>
+<section id="c">
+<h2>Let's discuss about your project</h2><br><strong>My name</strong>: Matthieu Petrigh<br><strong>Email</strong>: matthieu@petrigh.dev<br><strong>LinkedIn</strong>: <a rel="noopener" href="https://www.linkedin.com/in/securite-et-mon-droit/">Connect with me on LinkedIn.</a><br><h2>Publications</h2><br><a rel="noopener" href="https://www.petrigh.dev/rss.xml">RSS feed</a><br><i><a rel="noopener" href="https://drive.proton.me/urls/0WS3V3G2FW#i906BRxko9KQ">[2] Are UK Security and Cyber-Security Companies Using Modern Website Security Features To  Protect Their Own Websites?</a></i> This small scale research has demonstrated that all too often, security companies and cyber-security companies are not implementing modern website security features to protect their own websites.<br><i><a rel="noopener" href="https://drive.proton.me/urls/Q6HKV5ZHYG#6BAlLpswyASP">[1] Website Performance and Security: A Comparative Analysis of 1000 Websites.</a></i> This small scale research has demonstrated that all too often, the overall performance of websites (speed and security) is rather weak, with an average performance of 36.48%. More importantly, evidence reveals that website’s security is not taken seriously by their respective owners, with an average security rating of only 19.26%.<br></section>
+<section id="h">
+<h2>How can I help you today?</h2>I am a trusted independent consultant and researcher who specialises in minimalism<sup>(*)</sup>, website security, and website performance. Expertise in website design enhancement, website and Internet-facing security, accessibility, compliance and speed.<br>I have been extensively involved in evaluating "what works efficiently" (and what does not). My work has involved helping my clients to improve the security and performance of their websites (speed and accessibility), hosting and maintaining their websites.<br>I work closely with my clients. This includes teams of websites designers, businesses, SMEs, national and local governments, associations and international organisations, as well as charities and foundations. My aim is to exceed their expectations and it speaks volumes that so many have chosen to work with me repeatedly over many years. I am passionate about my work and I would welcome the opportunity to work with you.<br>
+<ul>
+<li>Proven methodology: what I do and how I do it works, for real;</li>
+<li>No jargon: simple explanations;</li>
+<li>No surprise: deliver what has been agreed upon, no BS.</li>
+</ul><br>
+<h3>A performing and secure website</h3><br>Website performance is something rather rare in today's world, and it is as such for many reasons. Having a performing and secure website has many advantages compared to having a "normal website". For example, a performing website allows you to stand out from the crowd, requires almost no computing power, consumes less energy, loads faster, is more stable and secure; it expresses a way of doing things, a way of being. Performing websites also enhance the overall experience of websites' users, including their own security.<br><i>(*) Minimalism is the philosophy of achieving simplicity. Applied to website design, minimalism includes removing what is unnecessary, has little use and distracts.</i><br></section>
+</main>
+<footer>
+<hr />&copy; Matthieu Petrigh - <a rel="noopener" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.petrigh.dev%2F">Compliance</a>, <a rel="noopener" href="https://observatory.mozilla.org/analyze/www.petrigh.dev">Security</a>.</footer>
 </body>
 
 </html>

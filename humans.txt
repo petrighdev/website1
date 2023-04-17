@@ -2,7 +2,7 @@
 
 Creator: Matthieu Petrigh
 URL: https://www.petrigh.dev
-Description: I am a consultant specialising in minimalism, website security and website performance.
+Description: I am an experimental digital artist, consultant specialising in minimalism, website security and website performance.
 
 /* THANKS */
 

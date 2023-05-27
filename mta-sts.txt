@@ -3,4 +3,4 @@ version: STSv1
       mx: route3.mx.cloudflare.net
       mx: route2.mx.cloudflare.net
       mx: route1.mx.cloudflare.net
-      max_age: 86400
+      max_age: 2419200

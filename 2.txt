@@ -1,0 +1,108 @@
+Title: Are UK Security and Cyber-Security Companies Using Modern Website Security Features To  Protect Their Own Websites?
+
+August 2022, Research Report
+------------------------------------------------------------------------
+All Rights Reserved. No part of this publication may be reprinted or reproduced or utilised in any form or by any electronic, mechanical or other means, known now or hereafter invented, including photocopying and recording, or in any information storage or retrieval system, without permission in writing from Matthieu Petrigh.
+
+Copyright © 2021 Matthieu Petrigh
+------------------------------------------------------------------------
+Contents
+[1] Prologue
+[2] This research
+[3] Research methodology
+[4] Results
+[4.1] Security companies
+[4.2] Cybersecurity companies
+[4.3] Overall sample
+[5] Conclusions
+[6] Limitations
+[7] Appendix
+------------------------------------------------------------------------
+[1] Prologue
+
+The cyberspace is a risky place! With great regularity, we hear about websites becoming unavailable due to denial of service attacks, or displaying modified (and often damaging) information on their homepages.
+In other high-profile cases, millions of passwords, email addresses, and credit card details have been leaked into the public domain, exposing website users to both personal embarrassment and financial risk.
+The purpose of website security is to prevent these (or any) sorts of attacks. A more formal definition of website security could be the act/practice of protecting websites from unauthorised access, use, modification, destruction, or disruption. Website security are thus the measures taken to secure a website from cyberattacks. And in this sense, website security is an ongoing process and an essential part of managing a website.
+Effective website security requires design effort across the whole of the website: in  web applications, the configuration of the web servers, the policies for creating and renewing passwords, and the client-side codes. While all that sounds very ominous, the good news is that if a server-side web framework is being used, it will almost certainly enable "by default" robust and well-thought-out defence mechanisms against a number of the more common attacks. Other attacks can be mitigated through a good web server configuration, for example by enabling HTTPS. Finally, there are publicly available vulnerability scanner tools that can help website owners and developers find out if they have made any obvious mistakes.
+Whilst protecting websites can appear to be challenging, especially when dealing with a large network of sites, website security is as vital to someone’s online presence as having a website host. If a website is hacked and blacklisted, for example, it can lose up to 98% of its traffic.
+Not having a secure website can be as bad as not having a website at all, or even worse. For example, a client data breach can result in lawsuits, heavy fines, and ruined reputation.
+
+[2] This Research
+
+This research study is meant to provide a better understanding of how well and often modern website security features are implemented by websites and web-applications owners.
+More specifically, this research will focus on four modern website security features:
+
+- HTTP Strict Transport Security (HSTS);
+- Content Security Policy (CSP);
+- Sub-resource Integrity (SRI);
+- Expect-CT  response HTTP header.
+
+HTTP Strict Transport Security (HSTS): HSTS vastly improves security of the network encryption layer. With HSTS enabled, browsers no longer allow clicking through certificate warnings errors, which are typically trivial to exploit. Additionally, they will no longer submit insecure (plaintext) requests to the website in question, even if asked.
+Content Security Policy (CSP): A Content Security Policy is a security mechanism that allows websites control how browsers process their pages. In essence, websites can restrict what types of resources are loaded and from where. CSP policies can be used to protect against cross-site scripting, prevent mixed content issues, as well as report violations for investigation.
+Sub-resource Integrity (SRI): SRI is a new standard that enables browsers to verify the integrity of embedded page resources (e.g., scripts and stylesheets) when they are loaded from third-party websites. With SRI deployed, remote resources can be used safely, without fear of them being modified by malicious parties.
+Expect-CT: Expect-CT is a response HTTP header that websites can use to monitor problems related to their Certificate Transparency (CT) compliance. Should any CT issues arise, browsers that support this header will submit reports to the specified reporting endpoint.
+
+[3] Research Methodology
+
+Internet searches using the keywords “security company” and “cyber security company” have been made using Google Search Engine (google.co.uk). The first 450 results for each ‘keyword’ have been taken into account and each search result added into a corresponding database (dataset of 450 entries for Security Company; another dataset of 450 entries for Cyber Security Company).
+Each database has then been sorted alphanumerically whereas every third entry has been kept for research purpose, and each corresponding website has been analysed. Using this systematic approach, two samples of 150 websites have been carefully reviewed. Each analysis has been made using an open source and automated website security scanner.
+
+- Databases: security company (DB1), cyber security company (DB2);
+- Initial scoping: 900 entries / websites [(450xDB1) + (450xDB2)];
+- DB sorting methods: alphanumeric;
+- Selection method: rolling every 3rd entry in DB1 and DB2;
+- Samples: 150 entries in DB1, 150 entries in DB2;
+- Study sample: 300 entries;
+- Each entry analysed with open source security scanner.
+
+[4] Results
+
+[4.1] Security companies
+
+Evidence demonstrates that 26% of the security companies studied have implemented HTTP Strict Transport Security protocol on their websites, whereas 18.67% of those companies have a Content Security Policy in place. 
+To a lesser extent, Sub-Resource Integrity and Expect-CT Header have been integrated into security companies’ websites security solution, 14% and 8.67% respectively.
+ 
+[4.2] Cybersecurity companies
+
+Evidence demonstrates that 42% of the cyber-security companies studied have implemented HTTP Strict Transport Security protocol on their websites, whereas 23.33% of those companies have a Sub-Resource Integrity security measure in place. 
+To a lesser extent, Content Security Policy and Expect-CT Header have been integrated into cyber-security companies’ websites security solution, 20% and 14.67% respectively.
+
+[4.3] Overall sample
+
+When looking at the overall sample of companies studied (security companies and cyber-security companies), evidence reveals that 34% of them have implemented HTTP Strict Transport Security protocol on their websites, whereas 19.33% of those companies have a Content Security Policy in place.
+To a lesser extent, Sub-Resource Integrity and Expect-CT Header have been integrated into companies’ websites security solution, 18.67% and 11.67% respectively.
+
+[5] Conclusions
+
+This small scale research has demonstrated that all too often, security companies and cyber-security companies are not implementing modern website security features to protect their own websites.
+Whilst a third of the companies studied have made efforts in enabling HSTS (HTTP Strict Transport Security) protocol to protect their websites, less than a fifth have a Content Security Policy or a Sub-Resource Integrity protection in place.
+The findings are indeed raising some important concerns since the websites having been analysed during this study belong to organisations ‘selling security’ and thus protecting the assets of others.
+
+[6] Limitations
+
+The sample studied (N=300) does not necessarily reflect the full picture and therefore the findings of this research should not be generalised. Furthermore, the extent to which the various modern website security features have been configured properly has not been assessed in depth, therefore the results of this study would have greatly varied (but not for the best) if the research parameters would have been different.
+Lastly, website security is not only about HSTS, CSP, SRI and Expect-CT, and thus more research is necessary in order to gain further understandings.
+
+[7] Appendix
+
+Raw Data
+
+For those of you who are interested in accessing the raw data of the research, a spreadsheet in ODS format can be downloaded for free at:
+
+https://drive.proton.me/urls/0CHTBNGVWM#eFbG4y5ymg4s
+Password: researchisfun
+
+The names of the 300 companies and their respective websites having been analysed are accessible in the document, altogether with their security score.
+
+Raw data contains
+- Name of company
+- Website address
+- HTTP Strict Transport Security score
+- Content Security Policy score
+- Sub-Resource Integrity score
+- Expect-CT Header score
+- Date of the analysis
+
+Dashboard contains
+- Analytical tables
+- Figures and graphs

@@ -1,0 +1,115 @@
+Title: Website Performance and Security: A Comparative Analysis of 1000 Websites
+
+June 2021, Research Report
+---
+All Rights Reserved. No part of this publication may be reprinted or reproduced or utilised in any form or by any electronic, mechanical or other means, known now or hereafter invented, including photocopying and recording, or in any information storage or retrieval system, without permission in writing from Matthieu Petrigh.
+
+Copyright © 2021 Matthieu Petrigh
+---
+Contents
+[1] Prologue
+[2] Research methodology
+[3] Results
+[3.1] Speed
+[3.2] Security
+[3.3] Errors
+[4] The Best, The Average, and The Worst
+[5] Conclusions
+[6] Appendix
+---
+[1] Prologue
+
+Web performance is the objective measurement and perceived user experience of a website or application. It involves measuring the actual and perceived speeds and security of an application, optimising where possible, and then monitoring the performance, to ensure that what has been optimised stays optimised. This involves a number of metrics (measurable indicators that can indicate success or failure) and tools to measure those metrics. Many features impact performance including latency, application size, the number of DOM nodes, the number of resource requests made, JavaScript performance, CPU load, bad security practices and more.
+Bad performing sites are slow to display and slow to respond to input, and they increase site abandonment and security risks for their users. At its worst, bad performance causes content to be completely inaccessible. A good goal for web performance is for users to not notice performance. While an individual's perception of site performance is subjective, loading, rendering and a good security can be measured.
+Good performance may not be obvious to most site visitors, but most will immediately recognise a sluggish and insecure website.
+Web performance is thus important for accessibility and also for other website metrics that serve the goals of an organisation or business. Good or bad website performance correlates powerfully to user experience, as well as the overall effectiveness of most sites. In this comparative analysis, I have benchmarked 1,000 websites against three criteria (speed, code purity and security) using tools found in the public domain; and well, the results speak for themselves.
+
+[2] Research Methodology
+
+An Internet search using the keywords “security companies”, “cyber security companies” and “security degrees” has been made using four different Google Search Engine (google.com; google.co.uk; google.ca; and google.com.au). The first 100 results for each ‘keyword’ have been taken into account and each corresponding website analysed.
+Using this systematic approach, a sample of 1,000 websites’ homepages has been carefully reviewed. Each analysis has been made using open source software according to three criteria which matter to website performance, namely speed, code purity and security:
+
+- Google PageSpeed Insights (speed);
+- W3C Validator (code purity);
+- Mozilla Observatory (security).
+
+Google PageSpeed Insights (PSI) analyses the content of a web page, and then generates suggestions to make that page faster. It reports on the performance of a page on both mobile and desktop devices, and provides suggestions on how that page may be improved. PSI provides a score which summarises the page’s performance. This score is determined by running Lighthouse to collect and analyse lab data about the page. A score of 90% or above is considered good. 50% to 90% is a score that needs improvement, and below 50% is considered poor.
+W3C’s Markup Validation Service is a validator developed by the World Wide Web Consortium that allows Internet users to check pre-HTML5, HTML and XHTML documents for well-formed markup against a document type definition. Markup validation is an important step towards ensuring the technical quality of web pages.
+The Mozilla Observatory has helped over 240,000 websites by teaching developers, system administrators, and security professionals how to configure their sites safely and securely. The tool aims to help developers and security professionals be aware of potential issues and help resolve them for a more safe and secure Internet.
+The scores and grades oﬀered by the Mozilla Observatory are designed to alert developers when they are not taking advantage of the latest web security features. Grades vary between 0% and 135%, 0% being the lowest grade, and 135% being the highest mark.
+
+[3] Results:
+
+[3.1] Speed
+
+In terms of speed (average desktop and mobile), UK websites are better performing than their US and Canadian counterparts. The findings of this research suggest that websites owned by security companies are slightly faster than those belonging to cyber security companies and universities.
+
+- Speed average for UK websites: 57.75%
+- Speed average for US websites: 48.40 %
+- Speed average for Canadian websites: 54.96%
+- Overall speed average (UK, US, Canada): 53.70%
+
+[3.2] Security
+
+Evidence demonstrates that websites owned by US security and cyber security companies are more secure than their UK and Canadian counterparts, whereas in average, UK websites have the lowest security rating, and US websites are 5% to 6% more secure than others.
+
+- Security average for UK websites: 17.10%
+- Security average for US websites: 23.16%
+- Security average for Canadian websites: 17.51%
+- Overall security average (UK, US, Canada): 19.26%
+
+[3.3] Errors
+
+Websites owned by UK security companies have, in average, 89.74 errors on their homepage whilst US websites score 86.10 errors and Canadian ones 96.96 errors. On the other hand, websites belonging to UK universities and training centres are averaging 56.56 errors, whilst US websites have 54.95 errors and Canadian ones 66.34 errors.
+
+- Errors average for homepage of UK websites: 73.10 errors
+- Errors average for homepage of US websites: 82.57 errors
+- Errors average for homepage of Canadian websites: 74.47 errors
+- Overall errors average on homepages (UK, US, Canada): 76.71 errors
+
+[4] The Best, The Average, and The Worst
+
+During this research, 1,000 websites’ homepages have been systematically analysed. Few websites are clearly above others in terms of overall performance (speed and security), and some of them are clearly below average. What the evidence reveals?
+
+Best website
+- Speed: 98.50%
+- Security: 120%
+- Errors: 0
+
+Average website
+- Speed: 53.70%
+- Security: 19.26%
+- Errors: 77.38 errors
+
+Worst website
+- Speed:12.50%
+- Security: 0%
+- Errors: 1,001 errors
+
+[5] Conclusions
+
+This small scale research has demonstrated that all too often, the overall performance of websites (speed and security) is rather weak, with an average performance of 36.48%. More importantly, evidence reveals that website’s security is not taken seriously by their respective owners, with an average security rating of only 19.26%. The findings are indeed raising some important concerns since the websites having been analysed during this study belong to organisations ‘selling security’ or teaching it. However, it appears that some eﬀorts are being done by websites owners as these relate to having faster websites, specifically when these are displayed on desktops.
+
+[6] Appendix
+
+Raw Data
+For those of you who are interested in accessing the raw data of the research, a spreadsheet in Excel can be downloaded for free at:
+
+https://drive.proton.me/urls/Z7BXAW3J20#3YwkIXY4UcQr
+Password: iliketoresearch
+
+The names of the 1,000 companies and their respective websites having been analysed are accessible in the document, altogether with their speed score (both mobile and desktop), security rating and number of code errors.
+
+Raw data contains
+- Name of company
+- Website address
+- Page speed on mobile devices
+- Page speed on desktops
+- Number of code errors
+- Security rating
+- Date of the analysis
+- Average performance
+
+Dashboard contains
+- Analytical tables
+- Figures and graphs
